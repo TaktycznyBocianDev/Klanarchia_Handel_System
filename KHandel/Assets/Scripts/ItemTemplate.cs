@@ -6,6 +6,7 @@ using UnityEngine;
 public class ItemTemplate : ScriptableObject
 {
     //This is place where we establish type of item.
+    [Header("In which tabs should iteam appear?")]
     public bool isTechnoklan;
     public bool isHanza;
     public bool isSoldat;
@@ -29,4 +30,11 @@ public class ItemTemplate : ScriptableObject
     public bool isTechnologicalEq;
 
     public bool isCustom;
+
+    [Header("Item variables")]
+    public string itemName;
+    public string itemDescription;
+    public float itemPrice;
+
+
 }
