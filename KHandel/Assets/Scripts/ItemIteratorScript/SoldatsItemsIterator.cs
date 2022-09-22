@@ -1,23 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SoldatsItemsIterator : IItemIterator
 {
 
-    ItemTemplate[] specificItems;
-
-    public ItemTemplate[] IterateTrueItems(ItemTemplate[] allItems)
+    public List<ItemTemplate> IterateTroughtItems(ItemTemplate[] allItems)
     {
-        int i = 0;
-
+        List<ItemTemplate> tmpItemsArray = new List<ItemTemplate>();
         foreach (var item in allItems)
-        {          
+        {
             if (item.isSoldat)
             {
-                specificItems[i] = item;
-                i++;
+                tmpItemsArray.Add(item);
             }
         }
-        return specificItems;
+        return tmpItemsArray;
     }
 }

@@ -1,21 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class StymulantItemIterator
+public class StymulantItemIterator : IItemIterator
 {
-    ItemTemplate[] specificItems;
-
-    public ItemTemplate[] IterateTrueItems(ItemTemplate[] allItems)
+    public List<ItemTemplate> IterateTroughtItems(ItemTemplate[] allItems)
     {
-        int i = 0;
-
+        List<ItemTemplate> tmpItemsArray = new List<ItemTemplate>();
         foreach (var item in allItems)
         {
             if (item.isStymulant)
             {
-                specificItems[i] = item;
-                i++;
+                tmpItemsArray.Add(item);
             }
         }
-        return specificItems;
+        return tmpItemsArray;
     }
 }

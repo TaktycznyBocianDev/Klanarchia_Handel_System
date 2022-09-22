@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemPlaceHolderBehaviour : MonoBehaviour
 {
-    [SerializeField] ItemTemplate template;
+    public ItemTemplate template;
     [SerializeField] Text itemName, itemDescription, itemPrice;
 
     private void OnEnable()

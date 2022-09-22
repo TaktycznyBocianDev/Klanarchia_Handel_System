@@ -1,21 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class AccesoryForRangeWeaponItemIterator
+public class AccesoryForRangeWeaponItemIterator : IItemIterator
 {
-    ItemTemplate[] specificItems;
-
-    public ItemTemplate[] IterateTrueItems(ItemTemplate[] allItems)
+    public List<ItemTemplate> IterateTroughtItems(ItemTemplate[] allItems)
     {
-        int i = 0;
-
+        List<ItemTemplate> tmpItemsArray = new List<ItemTemplate>();
         foreach (var item in allItems)
         {
             if (item.isAccesoryForRangeWeapon)
             {
-                specificItems[i] = item;
-                i++;
+                tmpItemsArray.Add(item);
             }
         }
-        return specificItems;
+        return tmpItemsArray;
     }
 }

@@ -1,0 +1,19 @@
+﻿public enum TabTypes
+{
+    Technoklan,
+    Hanza,
+    Soldat,
+    Rytualista,
+    Traweler,
+    CloseWeapon,
+    RangeWeapon,
+    AccesoryForRangeWeapon,
+    ThrowingWeapon,
+    Armor,
+    Medic,
+    Stymulant,
+    Euforic,
+    Herbs,
+    TechnologicalEq,
+    Custom
+}
