@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c267b6a9c609e424b823915fb3b4fdd9, type: 3}
-  m_Name: RytTest
+  m_Name: MieczSoldackiegoGenerala
   m_EditorClassIdentifier: 
   isTechnoklan: 0
   isHanza: 0
   isSoldat: 0
-  isRytualista: 0
+  isRytualista: 1
   isTraweler: 0
   isCloseWeapon: 0
   isRangeWeapon: 0
@@ -29,6 +29,8 @@ MonoBehaviour:
   isTechnologicalEq: 0
   isCustom: 0
   itemImage: {fileID: 21300000, guid: 6b10bece279e4ff4298424d62208bf29, type: 3}
-  itemName: RytTest
-  itemDescription: Lorem Ipsum
-  itemPrice: 800
+  itemName: Miecz Soladckiego Bezimiennego Generala
+  itemDescription: "Miecz zosta\u0142 wykuty w dniu wielkiego Przesilenia na Polach
+    Lodowego Pustkowia.  Genera\u0142 walczy\u0142 dzielnie, jednak\u017Ce los kaza\u0142
+    wypu\u015Bci\u0107 mu or\u0119\u017C z d\u0142oni. "
+  itemPrice: 555

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "item", menuName = "New Item For Sell", order = 1)]
 public class ItemTemplate : ScriptableObject
@@ -32,6 +33,7 @@ public class ItemTemplate : ScriptableObject
     public bool isCustom;
 
     [Header("Item variables")]
+    public Sprite itemImage;
     public string itemName;
     public string itemDescription;
     public float itemPrice;
