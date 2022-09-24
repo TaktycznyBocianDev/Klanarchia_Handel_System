@@ -17,7 +17,7 @@ MonoBehaviour:
   isSoldat: 0
   isRytualista: 0
   isTraweler: 0
-  isCloseWeapon: 0
+  isCloseWeapon: 1
   isRangeWeapon: 0
   isAccesoryForRangeWeapon: 0
   isThrowingWeapon: 0

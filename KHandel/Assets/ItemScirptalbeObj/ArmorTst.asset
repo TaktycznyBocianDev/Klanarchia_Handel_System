@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ArmorTst
   m_EditorClassIdentifier: 
   isTechnoklan: 0
-  isHanza: 0
+  isHanza: 1
   isSoldat: 0
   isRytualista: 0
   isTraweler: 0

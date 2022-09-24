@@ -15,7 +15,7 @@ MonoBehaviour:
   isTechnoklan: 0
   isHanza: 0
   isSoldat: 0
-  isRytualista: 0
+  isRytualista: 1
   isTraweler: 0
   isCloseWeapon: 0
   isRangeWeapon: 0

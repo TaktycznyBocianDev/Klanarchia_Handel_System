@@ -27,7 +27,7 @@ MonoBehaviour:
   isEuforic: 0
   isHerbs: 0
   isTechnologicalEq: 0
-  isCustom: 0
+  isCustom: 1
   itemImage: {fileID: 21300000, guid: 6b10bece279e4ff4298424d62208bf29, type: 3}
   itemName: EQ
   itemDescription: Lorem Ipsum

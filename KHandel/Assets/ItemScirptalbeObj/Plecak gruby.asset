@@ -22,7 +22,7 @@ MonoBehaviour:
   isAccesoryForRangeWeapon: 0
   isThrowingWeapon: 0
   isArmor: 0
-  isMedic: 0
+  isMedic: 1
   isStymulant: 0
   isEuforic: 0
   isHerbs: 0

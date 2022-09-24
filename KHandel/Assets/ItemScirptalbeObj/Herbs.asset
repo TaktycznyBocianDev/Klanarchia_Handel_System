@@ -19,7 +19,7 @@ MonoBehaviour:
   isTraweler: 0
   isCloseWeapon: 0
   isRangeWeapon: 0
-  isAccesoryForRangeWeapon: 0
+  isAccesoryForRangeWeapon: 1
   isThrowingWeapon: 0
   isArmor: 0
   isMedic: 0

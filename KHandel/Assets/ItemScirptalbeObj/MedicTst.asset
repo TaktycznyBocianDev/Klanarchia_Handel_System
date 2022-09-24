@@ -20,7 +20,7 @@ MonoBehaviour:
   isCloseWeapon: 0
   isRangeWeapon: 0
   isAccesoryForRangeWeapon: 0
-  isThrowingWeapon: 0
+  isThrowingWeapon: 1
   isArmor: 0
   isMedic: 0
   isStymulant: 0

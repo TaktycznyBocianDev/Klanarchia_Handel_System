@@ -16,7 +16,7 @@ MonoBehaviour:
   isHanza: 0
   isSoldat: 0
   isRytualista: 0
-  isTraweler: 0
+  isTraweler: 1
   isCloseWeapon: 0
   isRangeWeapon: 0
   isAccesoryForRangeWeapon: 0

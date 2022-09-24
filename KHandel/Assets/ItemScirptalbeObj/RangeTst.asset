@@ -23,7 +23,7 @@ MonoBehaviour:
   isThrowingWeapon: 0
   isArmor: 0
   isMedic: 0
-  isStymulant: 0
+  isStymulant: 1
   isEuforic: 0
   isHerbs: 0
   isTechnologicalEq: 0

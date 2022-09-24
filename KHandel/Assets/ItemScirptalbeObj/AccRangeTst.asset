@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c267b6a9c609e424b823915fb3b4fdd9, type: 3}
   m_Name: AccRangeTst
   m_EditorClassIdentifier: 
-  isTechnoklan: 0
+  isTechnoklan: 1
   isHanza: 0
   isSoldat: 0
   isRytualista: 0

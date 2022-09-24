@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c267b6a9c609e424b823915fb3b4fdd9, type: 3}
   m_Name: Basic
   m_EditorClassIdentifier: 
-  isTechnoklan: 0
-  isHanza: 0
-  isSoldat: 0
+  isTechnoklan: 1
+  isHanza: 1
+  isSoldat: 1
   isRytualista: 0
   isTraweler: 0
   isCloseWeapon: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
   isEuforic: 0
   isHerbs: 0
   isTechnologicalEq: 0
-  isCustom: 0
+  isCustom: 1
   itemImage: {fileID: 21300000, guid: 6b10bece279e4ff4298424d62208bf29, type: 3}
   itemName: Japko
   itemDescription: "Japko, dobre takie, japko, we\u017A kup pliska."

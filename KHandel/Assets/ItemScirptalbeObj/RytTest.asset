@@ -24,7 +24,7 @@ MonoBehaviour:
   isArmor: 0
   isMedic: 0
   isStymulant: 0
-  isEuforic: 0
+  isEuforic: 1
   isHerbs: 0
   isTechnologicalEq: 0
   isCustom: 0
