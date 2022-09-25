@@ -251,8 +251,6 @@ MonoBehaviour:
   - {fileID: 8481161313900250974}
   - {fileID: 8481161315344459301}
   rectTransformOfGrid: {fileID: 6278651069684401971}
-  startingPanelHight: 450
-  howMuchAddhightInPanelForEveryItem: 300
   tabType: 0
 --- !u!1 &6278651069557227373
 GameObject:
@@ -866,11 +864,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 437250658323343291, guid: 7607c01b704984e47bc38682b2924603, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -113
+      value: -185
       objectReference: {fileID: 0}
     - target: {fileID: 437250658323343291, guid: 7607c01b704984e47bc38682b2924603, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.7000122
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2490803568220642006, guid: 7607c01b704984e47bc38682b2924603, type: 3}
       propertyPath: m_Pivot.x
@@ -974,7 +972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9178874665913126184, guid: 7607c01b704984e47bc38682b2924603, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.6999512
+      value: 37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7607c01b704984e47bc38682b2924603, type: 3}

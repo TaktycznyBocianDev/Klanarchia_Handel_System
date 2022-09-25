@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 3871421278528473885}
   - component: {fileID: 5965800861625086970}
   - component: {fileID: 6942049577400348347}
+  - component: {fileID: 1329418830611049025}
   m_Layer: 5
   m_Name: BuyBtn
   m_TagString: Untagged
@@ -372,8 +373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -40, y: 60}
-  m_SizeDelta: {x: 50, y: 25}
+  m_AnchoredPosition: {x: -13, y: 49.5}
+  m_SizeDelta: {x: 172.88, y: 68.6822}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &3871421278528473885
 CanvasRenderer:
@@ -456,7 +457,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5965800861625086970}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1329418830611049025}
+        m_TargetAssemblyTypeName: BuyButtonBehavScript, Assembly-CSharp
+        m_MethodName: UserWantToBuy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1329418830611049025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4724819236897198375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a51b5aea0980034d8f0aa57278d0553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6018843970317918409
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,8 +517,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -20}
-  m_SizeDelta: {x: 102, y: 40}
+  m_AnchoredPosition: {x: -185.88196, y: 0}
+  m_SizeDelta: {x: 172.882, y: 75.5}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &6742963204824557916
 CanvasRenderer:
