@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c267b6a9c609e424b823915fb3b4fdd9, type: 3}
+  m_Name: Peruka
+  m_EditorClassIdentifier: 
+  isTechnoklan: 0
+  isHanza: 1
+  isSoldat: 0
+  isRytualista: 0
+  isTraweler: 0
+  isCloseWeapon: 0
+  isRangeWeapon: 0
+  isAccesoryForRangeWeapon: 0
+  isThrowingWeapon: 0
+  isArmor: 0
+  isMedic: 0
+  isStymulant: 0
+  isEuforic: 0
+  isHerbs: 0
+  isTechnologicalEq: 0
+  isCustom: 0
+  itemImage: {fileID: 21300000, guid: e04771ca755b25a4a911cdbd5dd3a606, type: 3}
+  itemName: Peruka
+  itemDescription: "By\u0142y w\u0142osy, s\u0105 w\u0142osy. Mo\u017Cna tak\u017Ce
+    na\u0142o\u017Cy\u0107 by mie\u0107 w\u0142osy jakich sie nigdy nie mia\u0142o."
+  itemPrice: 15
