@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c267b6a9c609e424b823915fb3b4fdd9, type: 3}
-  m_Name: Kosmetyki
+  m_Name: Niesmiertelnik
   m_EditorClassIdentifier: 
-  isTechnoklan: 1
+  isTechnoklan: 0
   isHanza: 0
-  isSoldat: 0
+  isSoldat: 1
   isRytualista: 0
   isTraweler: 0
   isCloseWeapon: 0
@@ -28,8 +28,8 @@ MonoBehaviour:
   isHerbs: 0
   isTechnologicalEq: 0
   isCustom: 0
-  itemImage: {fileID: 21300000, guid: c6acd1320b644254eb1b9e2f3e5a5a54, type: 3}
-  itemName: "Kosmetyki oraz przybory do higieny i depilacji cia\u0142a"
-  itemDescription: "Podstawowy zestaw by wygl\u0105da\u0107 pi\u0119knie. Dodatkowo,
-    ka\u017Cdy Technoklaneta znajdzie jeszcze z 20 zastosowa\u0144."
-  itemPrice: 3
+  itemImage: {fileID: 21300000, guid: 05b1fdc97a662b947adb2ce4de0e3ce8, type: 3}
+  itemName: "Niesmiertelnik z zam\xF3wion\u0105 inskrypcj\u0105"
+  itemDescription: "Twoje imie wiele znaczy. Zadbaj, aby jak ju\u017C znajd\u0105
+    to przy zw\u0142okach, to w legowisku smoka."
+  itemPrice: 2

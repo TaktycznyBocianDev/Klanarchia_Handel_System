@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c267b6a9c609e424b823915fb3b4fdd9, type: 3}
-  m_Name: Gorset
+  m_Name: BandolierNaNoze
   m_EditorClassIdentifier: 
   isTechnoklan: 0
-  isHanza: 1
-  isSoldat: 0
+  isHanza: 0
+  isSoldat: 1
   isRytualista: 0
   isTraweler: 0
   isCloseWeapon: 0
@@ -28,8 +28,8 @@ MonoBehaviour:
   isHerbs: 0
   isTechnologicalEq: 0
   isCustom: 0
-  itemImage: {fileID: 21300000, guid: b1bbc7921137b6b4baa94f07772f078c, type: 3}
-  itemName: Gorset fiszbinowy
-  itemDescription: "Wyszczupla sylwetk\u0119, podkre\u015Bla biust. Idealny praktycznie
-    zawsze."
-  itemPrice: 5
+  itemImage: {fileID: 21300000, guid: 5b90266170e3262488f22583603af665, type: 3}
+  itemName: Bandolier na 6 nozy
+  itemDescription: "No\u017Ce sprzedawane oddzielnie, ale za to jaka jako\u015B\u0107.
+    Mo\u017Ce by\u0107 wykorzystany jako podwi\u0105zka..."
+  itemPrice: 3
